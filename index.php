@@ -49,13 +49,17 @@
 
         ];
 
-        foreach ($hotels as $key => $value) :
-
+        
     ?>
 
-    <th>
-        <?php echo $key; ?>
-    <th>
+    <?php foreach ($key as $hotel) { ?>
+        <?php echo $hotel['name']; ?>
+        <?php echo $hotel['name']; ?>
+    <?php } ?>
+
+
+
+
 
 
 </body>
