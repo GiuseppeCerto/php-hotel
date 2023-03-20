@@ -64,17 +64,17 @@
                                 <th>Distance to center</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <?php foreach ($hotels as $hotel) { ?>
+                        <?php foreach ($hotels as $hotel) { ?>
+                            <tbody>
+                                <tr>
                                     <td><?php echo $hotel['name']; ?></td>
                                     <td><?php echo $hotel['description']; ?></td>
                                     <td><?php echo ($hotel['parking'] ? 'Si' : 'No'); ?></td>
                                     <td><?php echo $hotel['vote']; ?></td>
                                     <td><?php echo $hotel['distance_to_center']; ?> km</td>
-                                <?php } ?>
-                            </tr>
-                        </tbody>
+                                </tr>
+                            </tbody>
+                        <?php } ?>
                     </table>
                 </div>
             </div>
